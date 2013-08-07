@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ByBike</string>
+    <string name="action_settings">Settings</string>
+    <string name = "current_speed">CurrentSpeed</string>
+    <string name="spend_time">SpendTime</string>
+    <string name="max_speed">MaxSpeed</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="gps_work">GPS Working</string>
+    <string name="please_open_gps">Please open GPS</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">骑车</string>
+    <string name="action_settings">设置</string>
+    <string name = "current_speed">当前速度</string>
+    <string name="spend_time">行驶时间</string>
+    <string name="max_speed">最大速度</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="gps_work">GPS工作正常</string>
+    <string name="please_open_gps">请打开GPS模块</string>
+</resources>

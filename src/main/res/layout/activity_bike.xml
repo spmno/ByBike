@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/current_speed"
+            android:id="@+id/speedTextView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/spend_time"
+            android:id="@+id/timeTextView"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/speedTextView"
+            android:layout_alignLeft="@+id/speedTextView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/max_speed"
+            android:id="@+id/maxSpeedTextView"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/timeTextView"
+            android:layout_alignLeft="@+id/timeTextView"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/startStopbutton"
+            android:layout_toRightOf="@+id/maxSpeedTextView"
+            android:layout_marginTop="51dp"
+            android:layout_alignTop="@+id/maxSpeedTextView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/speedValueTextView"
+            android:layout_alignBottom="@+id/speedTextView"
+            android:layout_toRightOf="@+id/startStopbutton"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/timeValueTextView"
+            android:layout_alignBottom="@+id/timeTextView"
+            android:layout_alignLeft="@+id/speedValueTextView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/maxSpeedValueTextView"
+            android:layout_alignTop="@+id/maxSpeedTextView"
+            android:layout_alignLeft="@+id/timeValueTextView"/>
+
+</RelativeLayout>
